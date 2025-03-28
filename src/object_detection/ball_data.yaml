@@ -1,0 +1,12 @@
+# ball_data.yaml
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: ball/train/images  # train images (relative to yolov5 repo)
+val: ball/validation/images  # val images (relative to yolov5 repo)
+test: ball/test/images # test images (optional)
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['ball']
